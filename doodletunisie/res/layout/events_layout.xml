@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+<AbsoluteLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="@drawable/im">
+	<include layout="@layout/actionbar_layout"/>
+	
+	<LinearLayout android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content">
+
+		<Button
+		    android:id="@+id/button1"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="40dp"
+		    android:layout_height="51dp"
+		    android:background="@drawable/cfg" />
+    
+	</LinearLayout>
+
+	<TextView
+	    android:layout_width="341dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="3dp"
+	    android:layout_y="51dp"
+	    android:drawableLeft="@drawable/hhhh"
+	    android:padding="15dip"
+	    android:text="  créer un évènement"
+	    android:textColor="#ffffff"
+	    android:textSize="25dip"
+	    android:textStyle="bold" />
+
+	<EditText
+	    android:id="@+id/editText1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="56dp"
+	    android:layout_y="109dp"
+	    android:drawableLeft="@drawable/date"
+	    android:hint="  Ajouter Date"
+	    android:ems="10" >
+
+	    <requestFocus />
+	</EditText>
+
+	<EditText
+	    android:id="@+id/editText2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="58dp"
+	    android:layout_y="170dp"
+	    android:drawableLeft="@drawable/des"
+	     android:hint=" Description"
+	    android:ems="10" />
+
+	<EditText
+	    android:id="@+id/editText3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="60dp"
+	    android:layout_y="235dp"
+	    android:drawableLeft="@drawable/errr"
+	     android:hint="  Ajouter Lieu"
+	    android:ems="10" />
+
+	<EditText
+	    android:id="@+id/editText4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="62dp"
+	    android:layout_y="312dp"
+	    android:drawableLeft="@drawable/aaa"
+	     android:hint="  Ajouter Titre"
+	    android:ems="10" />
+
+	<ImageButton
+	    android:id="@+id/imageButton1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="272dp"
+	    android:layout_y="108dp"
+	    android:src="@drawable/hhy" />
+
+	<Button
+	    android:id="@+id/button2"
+	    android:layout_width="120dp"
+	    android:layout_height="36dp"
+	    android:layout_x="204dp"
+	    android:layout_y="446dp"
+	    android:background="@drawable/next" />
+
+	<CheckBox
+	    android:id="@+id/checkBox1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="-2dp"
+	    android:layout_y="386dp"
+	    android:text="2 creanaux" />
+
+	<CheckBox
+	    android:id="@+id/checkBox2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="108dp"
+	    android:layout_y="386dp"
+	    android:text="3 crenaux" />
+
+	<CheckBox
+	    android:id="@+id/checkBox3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="211dp"
+	    android:layout_y="386dp"
+	    android:text="4 crenaux" />
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="103dp"
+	    android:layout_y="360dp"
+	    android:text="choix crenaux"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</AbsoluteLayout>
+</ScrollView>

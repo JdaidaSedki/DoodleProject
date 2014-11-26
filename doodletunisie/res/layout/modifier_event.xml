@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+<AbsoluteLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="@drawable/im">
+	<include layout="@layout/actionbar_layout"/>
+	
+	<LinearLayout android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content">
+
+		<Button
+		    android:id="@+id/button1"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="40dp"
+		    android:layout_height="51dp"
+		    android:background="@drawable/cfg" />
+    
+	</LinearLayout>
+
+	<TextView
+	    android:layout_width="386dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="-11dp"
+	    android:layout_y="82dp"
+	    android:drawableLeft="@drawable/confi"
+	    android:padding="15dip"
+	    android:text="Modifier un évènement"
+	    android:textColor="#ffffff"
+	    android:textSize="25dip"
+	    android:textStyle="bold" />
+
+	<EditText
+	    android:id="@+id/editText2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="55dp"
+	    android:layout_y="216dp"
+	    android:drawableLeft="@drawable/modi"
+	    android:hint="  Lieu"
+	    android:ems="10" >
+
+	    <requestFocus />
+	</EditText>
+
+	<EditText
+	    android:id="@+id/editText3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="55dp"
+	    android:layout_y="281dp"
+	    android:drawableLeft="@drawable/mod"
+	   android:hint="Description"
+	    android:ems="10" />
+
+	<Button
+	    android:id="@+id/button3"
+	    android:layout_width="144dp"
+	    android:layout_height="36dp"
+	    android:layout_x="81dp"
+	    android:layout_y="431dp"
+	    android:drawableLeft="@drawable/confi"
+	    android:text="Modifier" />
+
+	<Button
+	    android:id="@+id/button2"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="36dp"
+	    android:layout_height="36dp"
+	    android:layout_x="278dp"
+	    android:layout_y="150dp"
+	    android:background="@drawable/rech" />
+
+	<EditText
+	    android:id="@+id/editText1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="57dp"
+	    android:layout_y="336dp"
+	    android:drawableLeft="@drawable/hj"
+	    android:ems="10"
+	    android:hint="  Date_event" />
+
+	<EditText
+	    android:id="@+id/editText4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="50dp"
+	    android:layout_y="150dp"
+	    android:drawableLeft="@drawable/ll"
+	    android:ems="10"
+	    android:hint="Titre" />
+
+</AbsoluteLayout>
+</ScrollView>

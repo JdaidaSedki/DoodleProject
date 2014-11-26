@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/im"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <!-- Name Label -->
+  <TextView android:id="@+id/name_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#43bd00"/>
+  <!-- Description Label -->
+
+  <!-- Price Label -->
+
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:layout_x="103dp"
+      android:layout_y="136dp"
+      android:text="Invitation"
+      android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  <EditText
+      android:id="@+id/editText1"
+      android:layout_width="192dp"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="31dp"
+      android:layout_x="64dp"
+      android:layout_y="189dp"
+      android:drawableLeft="@drawable/eventk"
+      android:ems="10"
+      android:hint="titre" />
+
+  <EditText
+      android:id="@+id/email_label"
+      android:layout_width="188dp"
+      android:layout_height="wrap_content"
+      android:layout_x="67dp"
+      android:layout_y="274dp"
+      android:drawableLeft="@drawable/ddd"
+      android:ems="10"
+      android:hint="  entrer pseudo"
+      android:textColor="#acacac" />
+
+  <Button
+      android:id="@+id/mobile_label"
+      android:layout_width="166dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="73dp"
+      android:layout_x="80dp"
+      android:layout_y="391dp"
+      android:drawableLeft="@drawable/invitt"
+      android:text="inviter"
+      android:textStyle="bold" />
+
+  <ImageView
+      android:id="@+id/imageView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="14dp"
+      android:layout_x="121dp"
+      android:layout_y="61dp"
+      android:src="@drawable/invi" />
+
+</AbsoluteLayout>

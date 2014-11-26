@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/im"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/horaifin"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="199dp"
+        android:ems="10"
+        android:hint="horaire fin" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/horaidebu"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="130dp"
+        android:ems="10"
+        android:hint="horaire début" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="62dp"
+        android:ems="10"
+        android:hint="DATE" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="122dp"
+        android:layout_y="340dp"
+        android:text="Button" />
+
+</AbsoluteLayout>

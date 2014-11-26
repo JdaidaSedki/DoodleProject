@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/im"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-18dp"
+        android:layout_y="82dp"
+        android:drawableLeft="@drawable/confi"
+        android:padding="15dip"
+        android:text="gestion d&apos;un évènement"
+        android:textColor="#ffffff"
+        android:textSize="25dip"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android1:id="@+id/radioGroup1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_x="13dp"
+        android1:layout_y="300dp" >
+    </RadioGroup>
+
+    <RadioGroup
+        android1:id="@+id/radioGroup2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_x="72dp"
+        android1:layout_y="163dp" >
+
+    </RadioGroup>
+
+    <Button
+        android1:id="@+id/button3"
+        android1:layout_width="144dp"
+        android1:layout_height="wrap_content"
+        android1:layout_x="166dp"
+        android1:layout_y="333dp"
+        android1:background="@drawable/next" />
+
+    <CheckBox
+        android1:id="@+id/checkBox1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_x="72dp"
+        android1:layout_y="166dp"
+        android1:text="Modifier un évènement" />
+
+    <CheckBox
+        android1:id="@+id/checkBox2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_x="77dp"
+        android1:layout_y="224dp"
+        android1:text="Supprimer un évènement" />
+
+</AbsoluteLayout>

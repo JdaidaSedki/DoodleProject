@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="@drawable/im">
+	<include layout="@layout/actionbar_layout"/>
+	
+	<LinearLayout android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content">
+
+		<Button
+		    android:id="@+id/button1"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="40dp"
+		    android:layout_height="51dp"
+		    android:background="@drawable/cfg" />
+    
+	</LinearLayout>
+
+	<EditText
+	    android:id="@+id/editText1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="52dp"
+	    android:layout_y="204dp"
+	    android:drawableLeft="@drawable/hj"
+	    android:ems="10"
+	    android:hint="  entrer pseudo" />
+
+	<TextView
+	    android:layout_width="386dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="-11dp"
+	    android:layout_y="82dp"
+	    android:drawableLeft="@drawable/h"
+	    android:padding="15dip"
+	    android:text="Afficher un évènement"
+	    android:textColor="#ffffff"
+	    android:textSize="25dip"
+	    android:textStyle="bold" />
+
+	<Button
+	    android:id="@+id/button3"
+	    android:layout_width="144dp"
+	    android:layout_height="36dp"
+	    android:layout_x="101dp"
+	    android:layout_y="276dp"
+	    android:drawableLeft="@drawable/ju"
+	    android:text="Afficher" />
+
+	<EditText
+	    android:id="@+id/my_edit"
+	    android:layout_width="300dp"
+	    android:layout_height="139dp"
+	    android:layout_margin="20dip"
+	    android:layout_x="10dp"
+	    android:layout_y="334dp"
+	    android:editable="false"
+	    android:ems="10"
+	    android:maxLines="15"
+	    android:minLines="15"
+	    android:textSize="12sp" >
+
+	    <requestFocus />
+	</EditText>
+
+</AbsoluteLayout>

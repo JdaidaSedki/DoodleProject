@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="@drawable/im">
+	<include layout="@layout/actionbar_layout"/>
+	
+	<LinearLayout android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content">
+
+		<Button
+		    android:id="@+id/button1"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="40dp"
+		    android:layout_height="51dp"
+		    android:background="@drawable/cfg" />
+    
+	</LinearLayout>
+
+	<TextView
+	    android:layout_width="341dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="3dp"
+	    android:layout_y="51dp"
+	    android:drawableLeft="@drawable/confi"
+	    android:padding="15dip"
+	    android:text="Gestion évènement"
+	    android:textColor="#ffffff"
+	    android:textSize="25dip"
+	    android:textStyle="bold" />
+
+	<CheckBox
+	    android:id="@+id/checkBox2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="81dp"
+	    android:layout_y="190dp"
+	    android:text="Modifier évènement" />
+
+	<CheckBox
+	    android:id="@+id/checkBox3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="86dp"
+	    android:layout_y="264dp"
+	    android:text="supprimer évènement" />
+
+	<CheckBox
+	    android:id="@+id/checkBox1"
+	    android:layout_width="193dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="76dp"
+	    android:layout_y="118dp"
+	    android:text="Ajouter évènement" />
+
+	<Button
+	    android:id="@+id/button2"
+	    android:layout_width="96dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="206dp"
+	    android:layout_y="374dp"
+	    android:background="@drawable/next" />
+
+</AbsoluteLayout>

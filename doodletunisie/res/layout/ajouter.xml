@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="42dp"
+         android:hint="prenom"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="5dp"
+        android:hint="Nom"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="92dp"
+        android:ems="10"
+        android:hint="login" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/adresse"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="136dp"
+         android:hint="adresse"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="182dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="232dp"
+         android:hint="lieu:"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="285dp"
+        android:ems="10"
+        android:hint="id"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="72dp"
+        android:layout_y="354dp"
+        android:text="Button" />
+
+</AbsoluteLayout>
